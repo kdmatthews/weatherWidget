@@ -1,0 +1,68 @@
+
+
+h1{
+    color:#003060;
+    font-size: 90px;
+}
+.heading{
+    text-align: center;
+}
+body {
+
+    background-image: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 120px;
+    font-family: 'Allerta', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+   
+   
+}
+.Heading{
+    text-align: center;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    color:#003060
+    
+}
+
+
+.tempdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+h2{
+    font-size: 65px;
+    display: grid;
+    grid-column: span 2;
+    color: white;
+    text-shadow: 10px black;
+}
+h3{
+    font-size: 60px;
+    color: #003060;
+}
+.search-button{
+    border-radius: 7px;
+    width: 170px;
+    height: 60px;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 20px;;
+}
+.input{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+}
