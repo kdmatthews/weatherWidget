@@ -21,7 +21,7 @@ async function weatherWidget(){
     temp.innerHTML = `${temperature}º <hr /> Fahrenheit`;
     const feelsLike = document.createElement('h2');
     const weatherFeel = Math.round(jsonWeatherData.main.feels_like)
-    feelsLike.innerHTML = `Today it will feel like ${weatherFeel} degreesº.`;
+    feelsLike.innerHTML = `Today it will feel like ${weatherFeel}º.`;
     
     
 
